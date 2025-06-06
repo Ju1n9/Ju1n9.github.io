@@ -65,62 +65,62 @@
     "1": {
       "signo": "Capricornio/Acuario",
       "descripcion": "Tu sabiduría y independencia iluminan el camino. Los astros te bendicen con estabilidad y libertad emocional.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Cap_Acu.png"
     },
     "2": {
       "signo": "Acuario/Piscis",
       "descripcion": "Tu humanitarismo y compasión tocan corazones. El cosmos te guía hacia la sanación y la inspiración artística.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Acu_Pis.png"
     },
     "3": {
       "signo": "Piscis/Aries",
       "descripcion": "Tu intuición y valentía crean magia. Las estrellas favorecen la expresión creativa y el liderazgo femenino.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Pis_Ari.png"
     },
     "4": {
       "signo": "Aries/Tauro",
       "descripcion": "Tu fuerza y sensualidad son irresistibles. Los planetas te otorgan poder personal y abundancia material.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Ari_Tau.png"
     },
     "5": {
       "signo": "Tauro/Géminis",
       "descripcion": "Tu elegancia y elocuencia abren puertas. El universo favorece la belleza, el arte y la comunicación efectiva.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Tau_Gem.png"
     },
     "6": {
       "signo": "Géminis/Cáncer",
       "descripcion": "Tu versatilidad y maternidad natural nutren a otros. Los astros protegen tu familia y fomentan tu crecimiento intelectual.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Gem_Can.png"
     },
     "7": {
       "signo": "Cáncer/Leo",
       "descripcion": "Tu ternura y magnetismo personal brillan intensamente. Las estrellas te coronan como reina de tu propio destino.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Can_Leo.png"
     },
     "8": {
       "signo": "Leo/Virgo",
       "descripcion": "Tu generosidad y perfección inspiran admiración. El cosmos te recompensa con reconocimiento y salud radiante.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Leo_Vir.png"
     },
     "9": {
       "signo": "Virgo/Libra",
       "descripcion": "Tu pureza y gracia natural encantan a todos. Los planetas favorecen la armonía en el amor y la justicia.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Vir_Lib.png"
     },
     "10": {
       "signo": "Libra/Escorpio",
       "descripcion": "Tu equilibrio y misterio fascinan profundamente. El universo te otorga poder de transformación y belleza eterna.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Lib_Esc.png"
     },
     "11": {
       "signo": "Escorpio/Sagitario",
       "descripcion": "Tu intensidad y sabiduría trascienden límites. Los astros te guían hacia la verdad espiritual y la libertad total.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Esc_Sag.png"
     },
     "12": {
       "signo": "Sagitario/Capricornio",
       "descripcion": "Tu aventura y determinación conquistan mundos. Las estrellas te bendicen con éxito profesional y realización personal.",
-      "imagen": "https://placehold.co/300x300"
+      "imagen": "imgs/Sag_Cap.png"
     }
   }
 }
