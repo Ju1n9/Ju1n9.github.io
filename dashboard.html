@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTRO-MASTER - Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-page">
+    
+    <!-- Contenido principal -->
+    <main class="dashboard-main">
+        <div class="dashboard-container">
+            <!-- Sección de bienvenida -->
+            <section class="welcome-section">
+                <h2 class="section-title">Tu Portal Astrológico</h2>
+                <p class="section-description">Explora los misterios del universo y descubre lo que los astros tienen preparado para ti</p>
+            </section>
+
+            <!-- Sección para calcular astros -->
+            <section class="calculator-section">
+                <h3 class="calculator-title">Calcular ASTROS</h3>
+                
+                <form class="astro-form" onsubmit="calculateAstros(event)">
+                    <!-- Campo de nombre -->
+                    <div class="input-group">
+                        <label for="nombre">Nombre</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            name="nombre" 
+                            placeholder="Ingresa tu nombre completo"
+                            required
+                        >
+                    </div>
+
+                    <!-- Campo de fecha de nacimiento -->
+                    <div class="input-group">
+                        <label for="fechaNac">Fecha de Nacimiento</label>
+                        <input 
+                            type="date" 
+                            id="fechaNac" 
+                            name="fechaNac" 
+                            required
+                        >
+                    </div>
+
+                    <!-- Campo de sexo -->
+                    <div class="input-group">
+                        <label>Sexo</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="sexo" value="masculino" required>
+                                <span class="radio-custom"></span>
+                                Masculino
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="sexo" value="femenino" required>
+                                <span class="radio-custom"></span>
+                                Femenino
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Botón de cálculo -->
+                    <button type="submit" class="calculate-btn">
+                        CALCULAR ASTROS
+                    </button>
+                </form>
+            </section>
+
+            <!-- Sección de resultado (inicialmente oculta) -->
+            <section class="result-section" id="resultSection" style="display: none;">
+                <h3 class="result-title">Tu Resultado Astrológico</h3>
+                <div class="result-content">
+                    <div class="result-image">
+                        <img id="resultImage" src="https://placehold.co/300x300" alt="Resultado Astrológico">
+                    </div>
+                    <div class="result-info">
+                        <h4 id="resultName">Nombre del Usuario</h4>
+                        <p id="resultDescription">Aquí aparecerá la interpretación astrológica basada en los datos proporcionados.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
